@@ -1,0 +1,115 @@
+{
+	"compiler": {
+		"version": "0.8.21+commit.d9974bed"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_registryAddress",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_videoHash",
+						"type": "string"
+					}
+				],
+				"name": "addLandVideo",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_index",
+						"type": "uint256"
+					}
+				],
+				"name": "getLandVideo",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					},
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "videoCount",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"src/contracts/CultivatedLandNFT.sol": "CultivatedLandVideo"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"src/contracts/CultivatedLandNFT.sol": {
+			"keccak256": "0x97fa9f7e561fc727c2a1cd08d378f98aa26b384212b0118806ce0f49f890adae",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://9b16bdfc5b0277c089050d6ecf1f9e2d4af661431d279e1dc5c35d28f493b884",
+				"dweb:/ipfs/QmV8YGqa9vpoh5ig3RkHCqzr5RUgV6nNcqMbC15LF2ibg5"
+			]
+		},
+		"src/contracts/FarmerRegistry.sol": {
+			"keccak256": "0x36b480d1cd80ee8ef6db6141e53a76d0c1065741e6fea5bb43455f5ad52101c4",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://8145873a5c9f0278f2fa3228d0e680956af7a9f0c36abfad7a2b71db44cf0948",
+				"dweb:/ipfs/QmfNAnDWAQcTevENTQQPLAzPRADsWBpqbe6wqwyCxa5bCv"
+			]
+		}
+	},
+	"version": 1
+}

@@ -1,0 +1,129 @@
+{
+	"compiler": {
+		"version": "0.8.6+commit.11564f7e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_registryAddress",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_amount",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "_description",
+						"type": "string"
+					}
+				],
+				"name": "addTransaction",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "calculateMSP",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "deployMSP",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "inflationRate",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_rate",
+						"type": "uint256"
+					}
+				],
+				"name": "setInflationRate",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"kisanpradhan-app/src/contracts/CropCultivation.sol": "CropCultivation"
+		},
+		"evmVersion": "berlin",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"kisanpradhan-app/src/contracts/CropCultivation.sol": {
+			"keccak256": "0xbb00375cb5077e1b0b7dc1d0605d56ba546f8268c9db0b654c72b9c3ca3297f6",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://4fb68f0701f63b0d2cab7f47420a19ea555630f67a7e0ce53588d2f1378cd5ae",
+				"dweb:/ipfs/QmXhaGzp6u2uFNQ5Bg2avrFaVQcy9uJuVPYVkSQCMNy9wK"
+			]
+		},
+		"kisanpradhan-app/src/contracts/FarmerRegistry.sol": {
+			"keccak256": "0x36b480d1cd80ee8ef6db6141e53a76d0c1065741e6fea5bb43455f5ad52101c4",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://8145873a5c9f0278f2fa3228d0e680956af7a9f0c36abfad7a2b71db44cf0948",
+				"dweb:/ipfs/QmfNAnDWAQcTevENTQQPLAzPRADsWBpqbe6wqwyCxa5bCv"
+			]
+		}
+	},
+	"version": 1
+}
